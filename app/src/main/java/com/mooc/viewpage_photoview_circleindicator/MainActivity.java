@@ -92,12 +92,12 @@ public class MainActivity extends Activity {
             photoView.setOnPhotoTapListener(new PhotoViewAttacher.OnPhotoTapListener() {
                 @Override
                 public void onPhotoTap(View view, float x, float y) {
-//                    finish();
+                    finish();
                 }
 
                 @Override
                 public void onOutsidePhotoTap() {
-//                    finish();
+                    finish();
                 }
             });
             photoViews[position] = photoView;
